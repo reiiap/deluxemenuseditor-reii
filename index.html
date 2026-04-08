@@ -17,6 +17,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intro.js/2.7.0/introjs.min.css">
 		<link rel="stylesheet" href="assets/css/style.css" media="screen">
@@ -56,12 +59,14 @@ items: <span class="items"><span id="1">
 		
 		<div id="input">
 			<div class="head">
+                <h1 class="app-title">Deluxe Menu Editor</h1>
+                <p class="app-subtitle">Build and export your DeluxeMenus config with live YAML preview.</p>
 				<button class="btn btn-primary" onclick="javascript:introJs().start();">Tutorial</button>
 				<button class="btn btn-primary toggle" data-toggle="menu" data-step="1" data-intro="Click here to toggle view of the menu.">Toggle Menu</button>
 				<button class="btn btn-primary toggle" data-toggle="items-wrapper" data-step="2" data-intro="Click here to toggle view of the items.">Toggle Items</button>
 				<a href="https://github.com/PlaceholderAPI/DeluxeMenuMaker" target="_blank"><button class="btn btn-primary">Source Code</button></a>
 				<a href="https://wiki.helpch.at/clips-plugins/deluxemenus" target="_blank"><button class="btn btn-primary">Wiki</button></a>
-                <p style="padding-top: 15px;">Made with ❤️ by reiiKajurawa Development</p>
+                <p class="app-credit">Made with ❤️ by reiiKajurawa Development</p>
                 <button class="btn btn-primary" onclick="download()">Download Menu</button>
 			</div>
 
@@ -206,8 +211,5 @@ items: <span class="items"><span id="1">
         }
         </script>
 
-	<script>
-	alert("reiiKajurawa Development Version");
-	</script>
 	</body>
 </html>
