@@ -2,7 +2,7 @@
  *	LOAD
  */
 var editor = ace.edit("output");
-editor.setTheme("ace/theme/chrome");
+editor.setTheme("ace/theme/tomorrow_night_bright");
 editor.getSession().setMode("ace/mode/yaml");
 editor.setShowPrintMargin(false);
 editor.setReadOnly(true);
